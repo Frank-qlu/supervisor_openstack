@@ -1,0 +1,2 @@
+# supervisor_openstack
+一个用于监控OpenStack虚拟机，前期提供监测CPU、内存、网口和磁盘等，使用libvirt获取相关信息，使用flask和ajax 和boostrap构建实时监控
