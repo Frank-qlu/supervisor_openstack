@@ -25,8 +25,8 @@
 ###
 <h4>项目预览<h4></br>
 ###
-<p>![Image text](https://github.com/Frank-qlu/supervisor_openstack/tree/master/images/cpu.png)</p></br>
-<p>![Image text](https://github.com/Frank-qlu/supervisor_openstack/tree/master/images/memory.png)</p></br>
-<p>![Image text](https://github.com/Frank-qlu/supervisor_openstack/tree/master/images/disk.png)</p></br>
-<p>![Image text](https://github.com/Frank-qlu/supervisor_openstack/tree/master/images/disk.png)</p></br>
-<p>![Image text](https://github.com/Frank-qlu/supervisor_openstack/tree/master/images/warning.png)</p></br>
+<p>![Image text](https://github.com/Frank-qlu/supervisor_openstack/blob/master/images/cpu.png)</p></br>
+<p>![Image text](https://github.com/Frank-qlu/supervisor_openstack/blob/master/images/memory.png)</p></br>
+<p>![Image text](https://github.com/Frank-qlu/supervisor_openstack/blob/master/images/disk.png)</p></br>
+<p>![Image text](https://github.com/Frank-qlu/supervisor_openstack/blob/master/images/disk.png)</p></br>
+<p>![Image text](https://github.com/Frank-qlu/supervisor_openstack/blob/master/images/warning.png)</p></br>
