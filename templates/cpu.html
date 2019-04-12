@@ -1,0 +1,111 @@
+{% extends 'base.html'%}
+{% block head %}
+<style>
+.alert{
+display: none;
+position: absolute;
+top: 50%;
+ left: 50%;
+width: 160px;
+height: 36px;
+line-height:36px;
+color:#fff;
+font-size:14px;
+z-index: 5000;
+text-align:center;
+ransform: translate(-50%,-50%);
+background-color: red;
+ }
+    </style>
+{% endblock %}
+{% block content %}
+<div id="container" style="min-width:400px;height:400px"></div>
+</style>
+<!--{% for mmm in range(g.len1)%}-->
+<!-- {% if g.li[mmm] > 0.7 %}-->
+<!--    <div class="alert">{{  g.data[li] }}</div>-->
+<!--    {% endif %}-->
+<!-- {% endfor %}-->
+    <script type="text/javascript">
+        $(function(){
+ $ ('.alert').fadeIn().delay(1000).fadeOut();
+})
+    </script>
+
+        <script>
+            // JS 代码 Highcharts.setOptions({
+            Highcharts.setOptions({
+		global: {
+				useUTC: false
+		}
+});
+function activeLastPointToolip(chart) {
+		var points = chart.series[0].points;
+		chart.tooltip.refresh(points[points.length -1]);
+}
+var chart = Highcharts.chart('container', {
+		chart: {
+				type: 'spline',
+				marginRight: 10,
+				events: {
+						load: function () {
+								var series = this.series[0],
+										chart = this;
+								activeLastPointToolip(chart);
+								setInterval(function () {
+										var x = (new Date()).getTime(), // 当前时间
+												y = Math.random();          // 随机值
+										series.addPoint([x, y], true, true);
+										activeLastPointToolip(chart);
+								}, 1000);
+						}
+				}
+		},
+		title: {
+				text: 'cpu使用情况实时数据'
+		},
+		xAxis: {
+				type: 'datetime',
+				tickPixelInterval: 150
+		},
+		yAxis: {
+				title: {
+						text: null
+				}
+		},
+		tooltip: {
+				formatter: function () {
+						return '<b>' + this.series.name + '</b><br/>' +
+								Highcharts.dateFormat('%Y-%m-%d %H:%M:%S', this.x) + '<br/>' +
+								Highcharts.numberFormat(this.y, 2);
+				}
+		},
+		legend: {
+				enabled: false
+		},
+		series: [{
+				name: 'cpu使用情况实时数据',
+				data: (function () {
+						// 生成随机值
+						var data = [],
+								time = (new Date()).getTime(),
+								i;
+						// for (i = -19; i <= 0; i += 1) {
+						// 		data.push({
+						// 				x: time + i * 1000,
+						// 				y: Math.random()
+						// 		});
+						// }
+						// for (i = 0; i <= {{g.len1 }}; i += 1) {
+                    {% for mmm in range(g.len1 )%}
+                                data.push({
+										x: time,
+										y: {{g.data[mmm][1]}}
+								});
+                    {% endfor %}
+						return data;
+				}())
+		}]
+});
+        </script>
+{% endblock %}
