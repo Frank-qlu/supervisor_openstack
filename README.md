@@ -24,7 +24,7 @@
 <p>同时希望大家提出宝贵意见，欢迎学习交流，如果你喜欢该项目，请收藏或者fork一下，你的主动将是我前行的动力</p></br>
 <p>###项目预览###<p></br></br>
 ![Image text](https://raw.githubusercontent.com/Frank-qlu/supervisor_openstack/master/images/1.png)</br>
-![Image text](https://github.com/Frank-qlu/supervisor_openstack/blob/master/images/1.png)</br>
+![Image text](https://raw.githubusercontent.com/Frank-qlu/supervisor_openstack/master/images/2.png)</br>
 ![Image text](https://raw.githubusercontent.com/Frank-qlu/supervisor_openstack/master/images/3.png)</br>
 ![Image text](https://raw.githubusercontent.com/Frank-qlu/supervisor_openstack/master/images/4.png)</br>
-![Image text](https://raw.githubusercontent.com/Frank-qlu/supervisor_openstack/master/images/5.png)</br>
+![Image text](https://raw.githubusercontent.com/Frank-qlu/recruit/master/%E6%8B%9B%E8%81%98%E7%88%AC%E8%99%AB/images/1.png)</br>
