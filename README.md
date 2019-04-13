@@ -22,11 +22,9 @@
 ###
 <p>该项目适合新手学习和交流，如果有任何问题请联系我Email: lizhipengqilu@gmail.com</p></br>
 <p>同时希望大家提出宝贵意见，欢迎学习交流，如果你喜欢该项目，请收藏或者fork一下，你的主动将是我前行的动力</p></br>
-###
-<h4>项目预览<h4></br>
-###
-<p>![Image text](https://github.com/Frank-qlu/supervisor_openstack/blob/master/images/cpu.png)</p></br>
-<p>![Image text](https://github.com/Frank-qlu/supervisor_openstack/tree/master/images/memory.png)</p></br>
-<p>![Image text](https://github.com/Frank-qlu/supervisor_openstack/blob/master/images/disk.png)</p></br>
-<p>![Image text](https://github.com/Frank-qlu/supervisor_openstack/blob/master/images/disk.png)</p></br>
-<p>![Image text](https://github.com/Frank-qlu/supervisor_openstack/blob/master/images/warning.png)</p></br>
+<p>###项目预览###<p></br></br>
+![Image text](https://github.com/Frank-qlu/supervisor_openstack/blob/master/images/cpu.png)
+![Image text](https://github.com/Frank-qlu/supervisor_openstack/tree/master/images/memory.png)
+![Image text](https://github.com/Frank-qlu/supervisor_openstack/blob/master/images/disk.png)
+![Image text](https://github.com/Frank-qlu/supervisor_openstack/blob/master/images/disk.png)
+![Image text](https://github.com/Frank-qlu/supervisor_openstack/blob/master/images/warning.png)
