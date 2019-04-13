@@ -1,35 +1,31 @@
-<div>
 # supervisor_openstack
-Ò»¸öÓÃÓÚ¼à¿ØOpenStackĞéÄâ»ú£¬Ç°ÆÚÌá¹©¼à²âCPU¡¢ÄÚ´æ¡¢Íø¿ÚºÍ´ÅÅÌµÈ£¬Ê¹ÓÃlibvirt»ñÈ¡Ïà¹ØĞÅÏ¢£¬Ê¹ÓÃflaskºÍajax ºÍboostrap¹¹½¨ÊµÊ±¼à¿Ø
+ä¸€ä¸ªç”¨äºç›‘æ§OpenStackè™šæ‹Ÿæœºï¼Œå‰æœŸæä¾›ç›‘æµ‹CPUã€å†…å­˜ã€ç½‘å£å’Œç£ç›˜ç­‰ï¼Œä½¿ç”¨libvirtè·å–ç›¸å…³ä¿¡æ¯ï¼Œä½¿ç”¨flaskå’Œajax å’Œboostrapæ„å»ºå®æ—¶ç›‘æ§
 ####
 ####
-1.libvirt</br>
-Ê¹ÓÃlibvirt¶ÔOpenStackĞéÄâ»ú½øĞĞÏà¹ØÊı¾İ²É¼¯£¬²¢´æ´¢µ½mongodbÊı¾İ¿âÖĞ</br>
-2.flask+boostrap3+ajax</br>
-ÊµÏÖÊı¾İµÄÊµÊ±¼à¿ØºÍÒì²½¸üĞÂ</br>
-3.¸æ¾¯</br>
-Ìí¼ÓÓÊÏä£¬CPU¸æ¾¯ĞÅÏ¢ÓÊÏäÍ¨Öª</br>
-4.Ìá¹©OpenStack°²×°PPTÎÄµµ</br>
+<h4>1.libvirt<h4></br>
+    <p>ä½¿ç”¨libvirtå¯¹OpenStackè™šæ‹Ÿæœºè¿›è¡Œç›¸å…³æ•°æ®é‡‡é›†ï¼Œå¹¶å­˜å‚¨åˆ°mongodbæ•°æ®åº“ä¸­</p></br>
+<h4>2.flask+boostrap3+ajax<h4></br>
+     <p>å®ç°æ•°æ®çš„å®æ—¶ç›‘æ§å’Œå¼‚æ­¥æ›´æ–°</p></br>
+<h4>3.å‘Šè­¦<h4></br>
+<p>æ·»åŠ é‚®ç®±ï¼ŒCPUå‘Šè­¦ä¿¡æ¯é‚®ç®±é€šçŸ¥</p></br>
+<h4>4.æä¾›OpenStackå®‰è£…PPTæ–‡æ¡£<h4></br>
 
 
-<p>###×¢Òâ£º</p></br>
-1. pymongo°²×°°æ±¾ <=3.0 ½¨Òé pip install pymongo==2.8###</br>
-2. python2.7 ÓÉÓÚlibvart¶Ôpython3.0ÒÔÉÏÖ§³Ö²»ºÃ£¬¹ÊÓÃpython2.7°æ±¾</br>
+<h4>###æ³¨æ„ï¼š<h4></br>
+<p>1. pymongoå®‰è£…ç‰ˆæœ¬ <=3.0 å»ºè®® pip install pymongo==2.8###</p></br>
+         <p>2. python2.7 ç”±äºlibvartå¯¹python3.0ä»¥ä¸Šæ”¯æŒä¸å¥½ï¼Œæ•…ç”¨python2.7ç‰ˆæœ¬</p></br>
 #####
 
 ###
 
        
 ###
-<p>¸ÃÏîÄ¿ÊÊºÏĞÂÊÖÑ§Ï°ºÍ½»Á÷£¬Èç¹ûÓĞÈÎºÎÎÊÌâÇëÁªÏµÎÒEmail: lizhipengqilu@gmail.com</p></br>
-<p>Í¬Ê±Ï£Íû´ó¼ÒÌá³ö±¦¹óÒâ¼û£¬»¶Ó­Ñ§Ï°½»Á÷£¬Èç¹ûÄãÏ²»¶¸ÃÏîÄ¿£¬ÇëÊÕ²Ø»òÕßforkÒ»ÏÂ£¬ÄãµÄÖ÷¶¯½«ÊÇÎÒÇ°ĞĞµÄ¶¯Á¦</p></br>
-<p>###ÏîÄ¿Ô¤ÀÀ###<p></br></br>
-</div>
-<div>
-<img src="https://github.com/Frank-qlu/supervisor_openstack/blob/master/images/1.png">
-![Image text](https://github.com/Frank-qlu/supervisor_openstack/blob/master/images/1.png)
-![Image text](https://raw.githubusercontent.com/Frank-qlu/supervisor_openstack/master/images/2.png)
-![Image text](https://raw.githubusercontent.com/Frank-qlu/supervisor_openstack/master/images/3.png)
-![Image text](https://raw.githubusercontent.com/Frank-qlu/supervisor_openstack/master/images/4.png)
-![Image text](https://raw.githubusercontent.com/Frank-qlu/supervisor_openstack/master/images/5.png)
-</div>
+<p>è¯¥é¡¹ç›®é€‚åˆæ–°æ‰‹å­¦ä¹ å’Œäº¤æµï¼Œå¦‚æœæœ‰ä»»ä½•é—®é¢˜è¯·è”ç³»æˆ‘Email: lizhipengqilu@gmail.com</p></br>
+<p>åŒæ—¶å¸Œæœ›å¤§å®¶æå‡ºå®è´µæ„è§ï¼Œæ¬¢è¿å­¦ä¹ äº¤æµï¼Œå¦‚æœä½ å–œæ¬¢è¯¥é¡¹ç›®ï¼Œè¯·æ”¶è—æˆ–è€…forkä¸€ä¸‹ï¼Œä½ çš„ä¸»åŠ¨å°†æ˜¯æˆ‘å‰è¡Œçš„åŠ¨åŠ›</p></br>
+<p>###é¡¹ç›®é¢„è§ˆ###<p></br></br>
+![Image text](https://raw.githubusercontent.com/Frank-qlu/supervisor_openstack/master/images/1.png)</br>
+![Image text](https://raw.githubusercontent.com/Frank-qlu/supervisor_openstack/master/images/2.png)</br>
+![Image text](https://raw.githubusercontent.com/Frank-qlu/supervisor_openstack/master/images/3.png)</br>
+![Image text](https://raw.githubusercontent.com/Frank-qlu/supervisor_openstack/master/images/4.png)</br>
+![Image text](https://raw.githubusercontent.com/Frank-qlu/supervisor_openstack/master/images/5.png)</br>
+<img src="https://raw.githubusercontent.com/Frank-qlu/supervisor_openstack/master/images/1.png">
